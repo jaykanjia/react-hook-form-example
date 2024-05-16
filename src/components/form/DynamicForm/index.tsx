@@ -23,7 +23,6 @@ type Props = {
 const DynamicForm = ({ form, onSubmit, schema }: Props) => {
 	return (
 		<form
-			// {...form}
 			onSubmit={form.handleSubmit(onSubmit)}
 			className="flex flex-col gap-4"
 		>
